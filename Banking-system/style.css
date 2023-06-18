@@ -1,0 +1,292 @@
+/* Googlefonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font: 23px;
+}
+
+
+/*body*/
+
+body {
+    width: auto;
+    height: auto;
+    padding: 0;
+    background-image: url('credit-card-payment-buy-sell-products-service.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/* navigation*/
+
+#navbar {
+    /* to vertically align */
+    display: flex;
+    align-items: center;
+    /* push the nav to the right */
+    margin-left: auto;
+    /* move it a bit back away from the edge */
+    justify-content: end;
+}
+
+#menu-wrap {
+    background-color: #000000;
+    width: 100%;
+    height: 50%;
+    align-items: center;
+}
+
+#navbar a {
+    text-decoration: none;
+}
+
+ul {
+    margin-right: 3rem;
+}
+
+ul li {
+    display: flex;
+    height: 100px;
+    margin: 13px;
+    position: flex;
+    text-align: end;
+    margin-top: 3rem;
+    font-size: 15px;
+    text-decoration: none;
+    align-items: center;
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+ul li a {
+    color: #ffffff;
+    font-style: inherit;
+    font: 1.5em sans-serif;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: fit-content;
+}
+
+#menu h1 {
+    height: 4rem;
+    width: 5rem;
+    border-radius: 6rem;
+    margin-top: 1.5rem;
+    float: left;
+    font-size: 23px;
+    font-style: inherit;
+    font-weight: bold;
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+
+/*Logo img*/
+
+#menu img {
+    height: 9rem;
+    width: 10rem;
+    border-radius: 6rem;
+    border-style: dashed;
+    margin-right: 3rem;
+    margin-left: 4rem;
+    margin-top: 2rem;
+    align-items: center;
+    justify-content: center;
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+#menu h1 img {
+    box-shadow: inset 0 0 40px #ffffff;
+}
+
+
+/*Icon image*/
+
+.icon img {
+    float: right;
+    height: 60vh;
+    width: 100vh;
+    border-radius: 2%;
+    background-blend-mode: lighten;
+    align-items: flex-end;
+    margin-top: 5vh;
+    background-repeat: no-repeat;
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+
+/*Homapage*/
+
+.transact {
+    margin-top: 30vh;
+    margin-bottom: 30vh;
+}
+
+.transact ul li {
+    display: inline-flex;
+    margin: 15px;
+    margin-left: 5rem;
+    position: flex;
+    text-align: end;
+    margin-top: 3rem;
+    font-size: 18px;
+    text-decoration: none;
+    align-items: center;
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 2px solid rgb(11, 6, 6);
+    border-radius: 25px;
+    width: 250px;
+    height: 100px;
+    justify-content: center;
+    background-color: #0a4275;
+}
+
+.transact:hover {
+    background-color: rgb(255, 165, 0);
+    width: 9rem;
+}
+
+.transact li a {
+    text-decoration: none;
+}
+
+.navitems a {
+    align-items: end;
+}
+
+.transact h2 {
+    margin-top: 10vh;
+    padding-top: 5;
+    margin-left: 40vh;
+    font-size: 6em;
+    margin-top: 2rem;
+    align-items: center;
+    justify-content: center;
+    text-decoration-line: none;
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    color: #0a4275;
+}
+
+
+/*Transaction page*/
+
+.transactions {
+    margin-top: 30vh;
+    margin-bottom: 30vh;
+}
+
+.transactions ul li {
+    height: 100px;
+    margin: 15px;
+    margin-left: 20rem;
+    margin-top: 3rem;
+    font-size: 20px;
+    text-decoration: none;
+    align-items: center;
+    justify-content: left;
+    border-radius: 23rem;
+    border-radius: 25px;
+    width: 250px;
+    height: 100px;
+    justify-content: center;
+    background-color: #0a4275;
+}
+
+.transactions li a:hover {
+    background-color: rgb(255, 165, 0);
+}
+
+.transactions li a {
+    text-decoration: none;
+}
+
+.transactions h2 {
+    margin-top: 10vh;
+    padding-top: 5;
+    margin-left: 20rem;
+    font-size: 4em;
+    margin-top: 2rem;
+    align-items: center;
+    justify-content: center;
+    text-decoration-line: none;
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.table:hover {
+    background-color: rgb(255, 165, 0);
+    color: #000;
+}
+
+#navbar li a:hover {
+    background-color: rgb(255, 165, 0);
+    color: #000;
+}
+
+#navbar li a:active {
+    font-style: italic;
+    background-color: rgb(255, 165, 0);
+}
+
+cursor {
+    size: 2cap;
+}
+
+.content {
+    margin-top: 5vh;
+    margin-left: 10vh;
+    text-decoration: none;
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.content p {
+    font-size: 30px;
+    text-decoration: none;
+    font-style: oblique;
+}
+
+.content h3 {
+    margin-top: 10vh;
+    padding-top: 5;
+    margin-left: 5rem;
+    font-size: 4em;
+    display: inline-block;
+    color: #0a4275;
+    font-size: 80px;
+    font-style: oblique 10deg;
+}
